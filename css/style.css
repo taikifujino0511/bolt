@@ -54,7 +54,7 @@ h2 {
 }
 
 /* button */
-.buttonOuter {
+.navOuter {
   display: flex;
   align-items: center;
 }
@@ -72,10 +72,19 @@ h2 {
   transition: .3s;
 }
 
+#navIcon {
+  display: none;
+}
+
+#navIcon span:nth-child(3) {
+  padding-bottom: 0;
+}
+
 /* Bolt Theme */
 #boltThemeSec {
   padding: 250px 0;
   background-color: var(--lightgray-color);
+  text-align: center;
 }
 
 #boltThemeInner {
@@ -263,10 +272,12 @@ h2 {
 
   #iphoneImg {
     margin-bottom: 20px;
+    width: 100%;
   }
 
   #wwcdSentences {
     margin-bottom: 25px;
+    width: 100%;
   }
   
   #olwItems {
@@ -300,5 +311,54 @@ h2 {
 
   .skillItem:nth-child(4) {
     margin-bottom: 0;
+  }
+}
+
+/* sp */
+@media screen and (max-width: 767px) {
+
+  #contact {
+    display: none;
+  }
+
+  #navIcon {
+    display: block;
+    padding: 10px;
+    border: solid 1px var(--gray-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 45px;
+  }
+
+#navIcon span {
+  display: block;
+  padding-bottom: 5px;
+  border-top: solid 2px var(--gray-color);
+}
+
+  #boltThemeSec {
+    padding: 160px 0;
+  }
+
+  #navIcon {
+    display: block;
+  }
+
+  #olwText {
+    width: 100%;
+  }
+
+  #snsInner {
+    padding: 50px 0;
+  }
+
+  #snsItems {
+    flex-direction: column;
+  }
+
+  .snsItem {
+    width: 100%;
   }
 }
