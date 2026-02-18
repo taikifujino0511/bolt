@@ -32,7 +32,7 @@ h2 {
 }
 
 /* Header */
-#headerSec {
+.headerSec {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -43,13 +43,13 @@ h2 {
   background-color: var(--white-color);
 }
 
-#headerInner {
+.headerInner {
   display: flex;
   justify-content: space-between;
 }
 
-#boltIcon {
-  color: #333333;
+.boltIcon {
+  color: .333333;
   font-size: 40px;
 }
 
@@ -72,88 +72,88 @@ h2 {
   transition: .3s;
 }
 
-#navIcon {
+.navIcon {
   display: none;
 }
 
-#navIcon span:nth-child(3) {
+.navIcon span:nth-child(3) {
   padding-bottom: 0;
 }
 
 /* Bolt Theme */
-#boltThemeSec {
+.boltThemeSec {
   padding: 250px 0;
   background-color: var(--lightgray-color);
   text-align: center;
 }
 
-#boltThemeInner {
+.boltThemeInner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#boltThemeTitle {
+.boltThemeTitle {
   margin-bottom: 20px;
   font-size: 90px;
   font-weight: bold;
   color: var(--main-color);
 }
 
-#boltThemeSubtitle {
+.boltThemeSubtitle {
   font-size: 30px;
   color: var(--gray-color);
 }
 
 /* WHAT WE CAN DO */
-#wwcdSec {
+.wwcdSec {
   padding-top: 50px;
   background-color: var(--main-color);
   color: var(--white-color);
 }
 
-#wwcdInner {
+.wwcdInner {
   display: flex;
   justify-content: center;
 }
 
-#iphoneImg {
+.iphoneImg {
   width: calc(100% - 60%);
   text-align: center;
 }
 
-#wwcdSentences {
+.wwcdSentences {
   width: calc(100% - 40%);
   text-align: center;
 }
 
-#wwcdTitle {
+.wwcdTitle {
   margin-bottom: 35px;
 }
 
-#wwcdText {
+.wwcdText {
   line-height: 1.5;
   font-size: 20px;
   font-weight: 300;
 }
 
 /* OUR LATEST WORK */
-#olwSec {
+.olwSec {
   padding: 60px 0 70px 0;
   background-color: var(--lightgray-color);
 }
 
-#olwInner {
+.olwInner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#olwTitle {
+.olwTitle {
   margin-bottom: 40px;
 }
 
-#olwItems {
+.olwItems {
   margin-bottom: 90px;
   box-sizing: content-box;
   display: grid;
@@ -171,11 +171,11 @@ h2 {
   transition: .3s;
 }
 
-#olwBottom {
+.olwBottom {
   display: flex;
 }
 
-#olwText {
+.olwText {
   margin-right: 90px;
   width: 660px;
   font-size: 20px;
@@ -184,28 +184,28 @@ h2 {
   line-height: 1.5;
 }
 
-#emailButton {
+.emailButton {
   padding: 14px 20px;
 }
 
 /* OUR SKILLS */
-#skillsSec {
+.skillsSec {
   background-color: var(--darkgray-color);
   color: var(--white-color);
 }
 
-#skillsInner {
+.skillsInner {
   padding: 70px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#skillsTitle {
+.skillsTitle {
   margin-bottom: 50px;
 }
 
-#skillsItems {
+.skillsItems {
   display: flex;
   column-gap: 180px;
 }
@@ -219,16 +219,16 @@ h2 {
 }
 
 /* SNS */
-#snsSec {
+.snsSec {
   color: var(--main-color);
   background-color: var(--lightgray-color);
 }
 
-#snsInner {
+.snsInner {
   padding: 200px 0;
 }
 
-#snsItems {
+.snsItems {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -246,14 +246,14 @@ h2 {
   transition: .3s;
 }
 
-#footerSec {
+.footerSec {
   padding-top: 20px;
   padding-bottom: 25px;
   background-color: var(--main-color);
   color: var(--white-color);
 }
 
-#footerInner {
+.footerInner {
   display: flex;
   justify-content: flex-end;
 }
@@ -265,22 +265,22 @@ h2 {
     width: 97%;
   }
 
-  #wwcdInner {
+  .wwcdInner {
     flex-direction: column;
     align-items: center;
   }
 
-  #iphoneImg {
+  .iphoneImg {
     margin-bottom: 20px;
     width: 100%;
   }
 
-  #wwcdSentences {
+  .wwcdSentences {
     margin-bottom: 25px;
     width: 100%;
   }
   
-  #olwItems {
+  .olwItems {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
     gap: 0;
@@ -291,17 +291,17 @@ h2 {
     margin-bottom: 80px;
   }
 
-  #olwBottom {
+  .olwBottom {
     flex-direction: column;
     align-items: center;
   }
 
-  #olwText {
+  .olwText {
     margin-right: 0;
     margin-bottom: 40px;
   }
 
-  #skillsItems {
+  .skillsItems {
     flex-direction: column;
   }
 
@@ -317,11 +317,11 @@ h2 {
 /* sp */
 @media screen and (max-width: 767px) {
 
-  #contact {
+  .contact {
     display: none;
   }
 
-  #navIcon {
+  .navIcon {
     display: block;
     padding: 10px;
     border: solid 1px var(--gray-color);
@@ -332,29 +332,29 @@ h2 {
     width: 45px;
   }
 
-#navIcon span {
+.navIcon span {
   display: block;
   padding-bottom: 5px;
   border-top: solid 2px var(--gray-color);
 }
 
-  #boltThemeSec {
+  .boltThemeSec {
     padding: 160px 0;
   }
 
-  #navIcon {
+  .navIcon {
     display: block;
   }
 
-  #olwText {
+  .olwText {
     width: 100%;
   }
 
-  #snsInner {
+  .snsInner {
     padding: 50px 0;
   }
 
-  #snsItems {
+  .snsItems {
     flex-direction: column;
   }
 
