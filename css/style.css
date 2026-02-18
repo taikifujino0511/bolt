@@ -64,6 +64,11 @@ h2 {
   background-color: var(--main-color);
 }
 
+.contactButton:hover {
+  background-color: var(--text-color);
+  transition: .3s;
+}
+
 #boltThemeSec {
   padding: 250px 0;
   background-color: var(--lightgray-color);
@@ -207,4 +212,9 @@ h2 {
   width: 185px;
   text-align: center;
   font-size: 40px;
+}
+
+.snsItem:hover {
+  background-color: var(--white-color);
+  transition: .3s;
 }
