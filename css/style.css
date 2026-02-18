@@ -56,6 +56,11 @@ h2 {
   font-size: 40px;
 }
 
+.buttonOuter {
+  display: flex;
+  align-items: center;
+}
+
 .contactButton {
   padding: 14px 12px;
   border: none;
@@ -159,6 +164,10 @@ h2 {
   font-weight: 300;
   text-align: center;
   line-height: 1.5;
+}
+
+#emailButton {
+  padding: 14px 20px;
 }
 
 /* OUR SKILLS */
