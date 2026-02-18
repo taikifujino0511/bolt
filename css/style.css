@@ -32,7 +32,7 @@ h2 {
 }
 
 /* Header */
-.headerSec {
+#headerSec {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -252,6 +252,10 @@ h2 {
 /* responsive */
 /* tab */
 @media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
   #wwcdInner {
     flex-direction: column;
     align-items: center;
