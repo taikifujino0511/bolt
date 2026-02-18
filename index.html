@@ -18,7 +18,7 @@
 <body>
   <!-- ヘッダー -->
   <header class="header">
-    <div class="headerInner">
+    <div id="headerInner" class="inner"> 
       <i id="boltIcon" class="fa fa-bolt" aria-hidden="true"></i>
       <button class="contactButton">Contact</button>
     </div>
@@ -26,16 +26,16 @@
 
   <main>
     <!-- Bolt Theme -->
-    <div id="boltThemeSec">
-      <div id="boltThemeInner">
+    <div id="boltThemeSec" class="sec">
+      <div id="boltThemeInner" class="inner">
         <h1 id="boltThemeTitle" class="heading">Bolt Theme</h1>
         <p id="boltThemeSubtitle">FREE BOOTSTRAP THEME</p>
       </div>
     </div>
 
     <!-- WHAT WE CAN DO -->
-    <section id="wwcdSec">
-      <div id="wwcdInner">
+    <section id="wwcdSec" class="sec">
+      <div id="wwcdInner" class="inner">
         <div id="iphoneImg">
           <img src="/img/iphone.png" alt="iphone">
         </div>
@@ -50,8 +50,24 @@
     </section>
 
     <!-- OUR LATEST WORK -->
-    <article>
-      <div></div>
+    <article id="olwSec" class="sec">
+      <div id="olwInner" class="inner">
+        <h2 id="olwTitle" class="heading">OUR LATEST WORK</h2>
+        <div id="olwItems">
+          <img src="./img/01.jpg" alt="01.jpg">
+          <img src="./img/02.jpg" alt="02.jpg">
+          <img src="./img/03.jpg" alt="03.jpg">
+          <img src="./img/04.jpg" alt="04.jpg">
+          <img src="./img/05.jpg" alt="05.jpg">
+          <img src="./img/06.jpg" alt="06.jpg">
+        </div>
+        <div id="olwBottom">
+          <p id="olwText">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          <button class="contactButton">Email Me!</button>
+        </div>
+      </div>
     </article>
 
     <!-- OUR SKILLS -->
