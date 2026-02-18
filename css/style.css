@@ -153,6 +153,15 @@ h2 {
   row-gap: 80px;
 }
 
+.olwItem {
+  opacity: .7;
+}
+
+.olwItem:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
 #olwBottom {
   display: flex;
 }
