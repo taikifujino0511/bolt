@@ -239,3 +239,53 @@ h2 {
   display: flex;
   justify-content: flex-end;
 }
+
+/* responsive */
+/* tab */
+@media screen and (max-width: 1199px) {
+  #wwcdInner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #iphoneImg {
+    margin-bottom: 20px;
+  }
+
+  #wwcdSentences {
+    margin-bottom: 25px;
+  }
+  
+  #olwItems {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    gap: 0;
+    margin-bottom: 80px;
+  }
+
+  .olwItem:nth-child(3) {
+    margin-bottom: 80px;
+  }
+
+  #olwBottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #olwText {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #skillsItems {
+    flex-direction: column;
+  }
+
+  .skillItem {
+    margin-bottom: 88px;
+  }
+
+  .skillItem:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
