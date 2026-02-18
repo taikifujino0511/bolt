@@ -17,9 +17,6 @@ body {
 }
 
 main {
-  /* width: 100%;
-  height: 100%;
-  overflow-y: auto; */
   padding-top: 70px;
   background-color: var(--lightgray-color);
 }
@@ -102,12 +99,12 @@ h2 {
 }
 
 #iphoneImg {
-  width: calc(100% - 60%) ;
+  width: calc(100% - 60%);
   text-align: center;
 }
 
 #wwcdSentences {
-  width: calc(100% - 40%) ;
+  width: calc(100% - 40%);
   text-align: center;
 }
 
@@ -187,4 +184,27 @@ h2 {
 
 .skillItem img {
   margin-bottom: 15px;
+}
+
+/* SNS */
+#snsSec {
+  color: var(--main-color);
+  background-color: var(--lightgray-color);
+}
+
+#snsInner {
+  padding: 200px 0;
+}
+
+#snsItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.snsItem {
+  padding: 30px 0;
+  width: 185px;
+  text-align: center;
+  font-size: 40px;
 }
