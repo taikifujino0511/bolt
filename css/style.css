@@ -8,6 +8,7 @@
   --lightgray-color: #f2f2f2;
   --gray-color: #c0c0c0;
   --text-color: #333333;
+  --darkgray-color: #4e4e4e;
 }
 
 body {
@@ -156,4 +157,34 @@ h2 {
   font-weight: 300;
   text-align: center;
   line-height: 1.5;
+}
+
+/* OUR SKILLS */
+#skillsSec {
+  background-color: var(--darkgray-color);
+  color: var(--white-color);
+}
+
+#skillsInner {
+  padding: 70px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skillsTitle {
+  margin-bottom: 50px;
+}
+
+#skillsItems {
+  display: flex;
+  column-gap: 180px;
+}
+
+.skillItem {
+  text-align: center;
+}
+
+.skillItem img {
+  margin-bottom: 15px;
 }
