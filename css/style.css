@@ -1,0 +1,391 @@
+/* common */
+:root {
+  --white-color: #ffffff;
+  --main-color: #74cfae;
+  --lightgray-color: #f2f2f2;
+  --gray-color: #c0c0c0;
+  --text-color: #333333;
+  --darkgray-color: #4e4e4e;
+}
+
+body {
+  font-family: Lato;
+  color: var(--text-color);
+}
+
+main {
+  padding-top: 70px;
+  background-color: var(--lightgray-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.heading {
+  font-family: Raleway;
+}
+
+/* Header */
+.headerSec {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 10px;
+  background-color: var(--white-color);
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boltIcon {
+  color: .333333;
+  font-size: 40px;
+}
+
+/* button */
+.navOuter {
+  display: flex;
+  align-items: center;
+}
+
+.contactButton {
+  padding: 14px 12px;
+  border: none;
+  font-size: 12px;
+  color: var(--white-color);
+  background-color: var(--main-color);
+}
+
+.contactButton:hover {
+  background-color: var(--text-color);
+  transition: .3s;
+}
+
+.navIcon {
+  display: none;
+}
+
+.navIcon span:nth-child(3) {
+  padding-bottom: 0;
+}
+
+/* Bolt Theme */
+.boltThemeSec {
+  padding: 250px 0;
+  background-color: var(--lightgray-color);
+  text-align: center;
+}
+
+.boltThemeInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boltThemeTitle {
+  margin-bottom: 20px;
+  font-size: 90px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.boltThemeSubtitle {
+  font-size: 30px;
+  color: var(--gray-color);
+}
+
+/* WHAT WE CAN DO */
+.wwcdSec {
+  padding-top: 50px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.wwcdInner {
+  display: flex;
+  justify-content: center;
+}
+
+.iphoneImg {
+  width: calc(100% - 60%);
+  text-align: center;
+}
+
+.wwcdSentences {
+  width: calc(100% - 40%);
+  text-align: center;
+}
+
+.wwcdTitle {
+  margin-bottom: 35px;
+}
+
+.wwcdText {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* OUR LATEST WORK */
+.olwSec {
+  padding: 60px 0 70px 0;
+  background-color: var(--lightgray-color);
+}
+
+.olwInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.olwTitle {
+  margin-bottom: 40px;
+}
+
+.olwItems {
+  margin-bottom: 90px;
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 80px;
+}
+
+.olwItem {
+  position: relative;
+  opacity: .7;
+}
+
+.olwItem:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.olwItem a {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.olwBottom {
+  display: flex;
+}
+
+.olwText {
+  margin-right: 90px;
+  width: 660px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.emailButton {
+  padding: 14px 20px;
+}
+
+/* OUR SKILLS */
+.skillsSec {
+  background-color: var(--darkgray-color);
+  color: var(--white-color);
+}
+
+.skillsInner {
+  padding: 70px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillsTitle {
+  margin-bottom: 50px;
+}
+
+.skillsItems {
+  display: flex;
+  column-gap: 180px;
+}
+
+.skillItem {
+  text-align: center;
+}
+
+.skillItem img {
+  margin-bottom: 15px;
+}
+
+/* SNS */
+.snsSec {
+  color: var(--main-color);
+  background-color: var(--lightgray-color);
+}
+
+.snsInner {
+  padding: 200px 0;
+}
+
+.snsItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.snsItem {
+  position: relative;
+  padding: 30px 0;
+  width: 185px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.snsItem:hover {
+  background-color: var(--white-color);
+  transition: .3s;
+}
+
+.snsItem a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--main-color);
+}
+
+/* footer */
+.footerSec {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.footerInner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* responsive */
+/* tab */
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .wwcdInner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iphoneImg {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wwcdSentences {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  
+  .olwItems {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    gap: 0;
+    margin-bottom: 80px;
+  }
+
+  .olwItem:nth-child(3) {
+    margin-bottom: 80px;
+  }
+
+  .olwBottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .olwText {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .skillsItems {
+    flex-direction: column;
+  }
+
+  .skillItem {
+    margin-bottom: 88px;
+  }
+
+  .skillItem:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
+
+/* sp */
+@media screen and (max-width: 767px) {
+
+  .contact {
+    display: none;
+  }
+
+  .navIcon {
+    display: block;
+    padding: 10px;
+    border: solid 1px var(--gray-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 45px;
+  }
+
+.navIcon span {
+  display: block;
+  padding-bottom: 5px;
+  border-top: solid 2px var(--gray-color);
+}
+
+  .boltThemeSec {
+    padding: 160px 0;
+  }
+
+  .navIcon {
+    display: block;
+  }
+
+  .olwText {
+    width: 100%;
+  }
+
+  .snsInner {
+    padding: 50px 0;
+  }
+
+  .snsItems {
+    flex-direction: column;
+  }
+
+  .snsItem {
+    width: 100%;
+  }
+}
