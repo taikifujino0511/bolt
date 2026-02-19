@@ -298,7 +298,8 @@ h2 {
 
   .iphoneImg {
     margin-bottom: 20px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .wwcdSentences {
