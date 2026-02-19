@@ -18,13 +18,18 @@ main {
   background-color: var(--lightgray-color);
 }
 
-.inner {
-  margin: 0 auto;
-  max-width: 1100px;
+img {
+  display: block;
+  max-width: 100%;
 }
 
 h2 {
   font-size: 24px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 1100px;
 }
 
 .heading {
@@ -163,12 +168,22 @@ h2 {
 }
 
 .olwItem {
+  position: relative;
   opacity: .7;
 }
 
 .olwItem:hover {
   opacity: 1;
   transition: .3s;
+}
+
+.olwItem a {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .olwBottom {
@@ -235,6 +250,7 @@ h2 {
 }
 
 .snsItem {
+  position: relative;
   padding: 30px 0;
   width: 185px;
   text-align: center;
@@ -244,6 +260,15 @@ h2 {
 .snsItem:hover {
   background-color: var(--white-color);
   transition: .3s;
+}
+
+.snsItem a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--main-color);
 }
 
 /* footer */
